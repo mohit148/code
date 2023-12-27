@@ -1,0 +1,75 @@
+/*https://wallpapers.com/images/hd/cute-profile-picture-19mnx03g9yap3dhy.jpg*/
+
+@font-face {
+    font-family: ginto;
+    src: url(ABCGintoNord-Bold.ttf);
+}
+body {
+    margin: 0%;
+    background-color: rgb(59, 163, 32);
+}
+#header {
+    display: flex;
+    justify-content: space-between; /* Aligns items with space between them */
+    align-items: center; /* Aligns items vertically */
+    background-color: #1f1f1f;
+    height: 80px;
+    border-radius: 0px 0px 30px 30px;
+    padding: 0 20px; /* Add padding for spacing */
+    font-family: ginto;
+
+  }
+
+  
+  #nav a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+
+  }
+.logo {
+    text-decoration: none;
+    color:white;
+}
+
+.body-content p {
+  width: 500px;
+  color: white;;
+}
+.body-content h1 {
+  color: white;;
+}
+.body-content {
+  /*background-color: green;*/
+  margin: 80px;            
+  margin-top: 180px;
+  font-size: larger;
+  display: inline-block;
+  width: auto;
+
+}
+.body-content button  {
+  padding: 12px 40px;
+  border-radius: 18px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: grey;
+
+}
+
+.body-content button:hover {
+  background-color: greenyellow;
+
+}
+.body-content button:focus {
+  background-color: greenyellow;
+ }
+
+
+
+
+ .larger-hexagon {
+  float: right;
+  margin: 180px;
+}
+
+
